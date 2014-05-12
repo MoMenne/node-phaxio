@@ -23,15 +23,10 @@ Response
 ```javascript
 { success: true,
   message: 'Retrieved fax successfully',
+  faxId: '111111',
   data:
-   { id: '111111',
-     num_pages: '0',
-     cost: 0,
-     direction: 'sent',
-     status: 'queued',
-     is_test: 'true',
-     requested_at: 1344829113,
-     recipients: [ { number: '13165555555', status: 'queued' } ]
+   { 
+   	faxId: '111111',
    }
 }
 
